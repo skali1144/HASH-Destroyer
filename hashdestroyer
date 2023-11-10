@@ -8,22 +8,6 @@ sleep(2)
 print('******************<: [PASSWORD HASH DESTROYER] :>******************')
 sleep(2)
 unhashedpass = 0
-sleep(1)
-l = input("Enter the Username: ")
-
-if l == "test":
-    password_input = input("Enter the Password: ")
-    if password_input == "test":
-        print("Log in Successful!")
-    else:
-        print("Log in Unsuccessful: Wrong password or username.")
-        sleep(4)
-        quit()
-else:
-    print("Log in Unsuccessful: Wrong password or username.")
-    sleep(4)
-    quit()
-
 hashedpass = input("Enter the HASHED Password: ")
 user_wordlist_choice = input("Do you want to use a custom wordlist? (y/n): ")
 
